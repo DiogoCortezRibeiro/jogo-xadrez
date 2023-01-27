@@ -1,11 +1,9 @@
 package org.example;
 
-import tabuleiro.Position;
+import tabuleiro.Board;
 
 public class Main {
     public static void main(String[] args) {
-        Position position = new Position(1, 3);
-
-        System.out.println(position);
+        Board board = new Board(8, 8);
     }
 }
